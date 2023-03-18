@@ -2,7 +2,7 @@
 
 // EXERCÍCIO 0A
 function soma(num1, num2) {
-  // implemente sua lógica aqui
+//implemente sua lógica aqui
   return num1 + num2
 }
 
@@ -18,27 +18,35 @@ function imprimeMensagem() {
 
 // EXERCÍCIO 01
 function calculaAreaRetangulo() {
-  // implemente sua lógica aqui
-
+  var alturaRetangulo = Number(prompt('Digite a altura do retângulo: '));
+  var larguraRetangulo = Number(prompt('Digite a largura do retângulo: '));
+  var areaRetangulo = alturaRetangulo * larguraRetangulo;
+  console.log (areaRetangulo);
 }
+
 
 // EXERCÍCIO 02
 function imprimeIdade() {
-  // implemente sua lógica aqui
-
+  var anoAtual = Number(prompt('Digite o ano atual: '));
+  var anoNasc = Number(prompt('Digite o ano do seu nascimento: '));
+  var idade = anoAtual - anoNasc;
+  console.log (idade);
 }
 
 // EXERCÍCIO 03
 function calculaIMC(peso, altura) {
-  // implemente sua lógica aqui
-
+  var imc = peso / (altura * altura);
+  return imc;
 }
 
 // EXERCÍCIO 04
 function imprimeInformacoesUsuario() {
-  // implemente sua lógica aqui
-  // "Meu nome é NOME, tenho IDADE anos, e o meu email é EMAIL."
-
+  var nome = (prompt ('Digite seu nome: '));
+  var idade = Number(prompt('Digite sua idade: '));
+  var email = (prompt ('Digite seu email'));
+  var imprimeInformacoesUsuario = 'Meu nome é ' + nome +', tenho ' + idade +' anos, e o meu email é '+ email + '.'
+  console.log (imprimeInformacoesUsuario);
+  
 }
 
 // EXERCÍCIO 05
