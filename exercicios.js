@@ -50,15 +50,23 @@ function imprimeInformacoesUsuario() {
 }
 
 // EXERCÍCIO 05
-function imprimeTresCoresFavoritas() {
-  // implemente sua lógica aqui
-
-}
+  function imprimeTresCoresFavoritas() {
+    let cores = [];
+    let cor1 = prompt("Digite a primeira cor favorita:");
+    let cor2 = prompt("Digite a segunda cor favorita:");
+    let cor3 = prompt("Digite a terceira cor favorita:");
+    
+    cores.push(cor1);
+    cores.push(cor2);
+    cores.push(cor3);
+    
+    console.log(cores);
+  }
+  
 
 // EXERCÍCIO 06
-function retornaStringEmMaiuscula(string) {
-  // implemente sua lógica aqui
-
+function retornaStringEmMaiuscula(stringMinuscula) {
+  return stringMinuscula.toUpperCase()
 }
 
 // EXERCÍCIO 07
