@@ -114,15 +114,15 @@ function trocaPrimeiroEUltimo(array) {
 
 
 // EXERCÍCIO 12
+//  Escreva dentro da função checaIgualdadeDesconsiderandoCase uma lógica que recebe duas strings e retorna um booleano (true ou false) indicando se elas são iguais, desconsiderando letras maiúsculas ou minúsculas.
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
-  // implemente sua lógica aqui
+  return string1.toUpperCase() === string2.toUpperCase();
 
 }
 
 // EXERCÍCIO 13
 function checaRenovacaoRG() {
-  // implemente sua lógica aqui
-  /*var anoAtual = Number(prompt ('Digite o ano atual: '));
+  var anoAtual = Number(prompt ('Digite o ano atual: '));
   var anoNasc = Number(prompt('Digite o ano em que você nasceu: '));
   var anoRg = Number(prompt ('Digite ano de emissão do RG: '));
 
@@ -132,27 +132,15 @@ function checaRenovacaoRG() {
   var renovaAte50Anos = (idade > 20) && (idade <= 50) && (idadeRg >= 10);
   var renovaAcima50Anos = (idade >50) && (idadeRg >= 15);
   console.log(renovaAte20Anos || renovaAte50Anos || renovaAcima50Anos);
-  */
+  
 }
 
-function checaRenovacaoRG() {
-  // implemente sua lógica aqui
-  var cYear = Number(prompt('qual é o ano atual?'));
-  var bYear = Number(prompt('qual é o seu ano de nascimento?'));
-  var emission = Number(prompt('qual o ano de emissão do seu rg?'));
 
-  var age = cYear - bYear;
-  
-  var renew = ((age <= 20 && cYear - emission >= 5) || (age >= 21 && age <= 50 && cYear - emission >= 10) || (age >= 51 && cYear - emission >= 15));
-  
-  console.log(renew);
-
-}
 
 // EXERCÍCIO 14
+//
 function checaAnoBissexto(ano) {
-  // implemente sua lógica aqui
-
+  
 }
 
 // EXERCÍCIO 15
