@@ -46,9 +46,8 @@ function imprimeInformacoesUsuario() {
   var nome = (prompt('Digite seu nome: '));
   var idade = Number(prompt('Digite sua idade: '));
   var email = (prompt('Digite seu email'));
-  var imprimeInformacoesUsuario = 'Meu nome é ' + nome + ', tenho ' + idade + ' anos, e o meu email é ' + email + '.'
+  var imprimeInformacoesUsuario = `Meu nome é ${nome}, tenho ${idade} anos, e o meu email é ${email}.`
   console.log(imprimeInformacoesUsuario);
-
 }
 
 // EXERCÍCIO 05
